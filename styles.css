@@ -1,11 +1,37 @@
-div {
-    display: grid;
-    grid-template-columns:repeat( 16, 1fr);
-    
-    gap: 1px;
-    
+.cuadros {
     background-color: red;
-    width: 50px;
-    height: 50px;
+    border-style:solid;
+    border-color: blue;
+    border-width: 2px;
+    padding: 1rem;
+    flex-grow: 1;
+    flex-basis: 100%;
+    
+    
     
 } 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+.columna {
+background-color: white;
+flex-grow: 1;
+flex-basis: 100%;
+}
+
+#contenedor {
+justify-content: center;
+width: 600px;
+height: 600px;
+display: flex;
+
+    
+}
