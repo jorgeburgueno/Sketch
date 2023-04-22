@@ -1,4 +1,4 @@
-const contenedor = document.getElementById("contenedor");
+
 const largo = 16;
 crearGrid(largo);
 cambioColor();
